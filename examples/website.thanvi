@@ -1,0 +1,50 @@
+app "Thanvi WebApp" {
+
+    version "2.0.0"
+
+    theme {
+        mode "dark"
+        primary "#5ee7ff"
+        background "#070b14"
+    }
+
+    page "/" {
+
+        navbar {
+            logo "ThanviLang"
+
+            link "Home" "/"
+            link "Docs" "/docs"
+            link "GitHub" "/github"
+        }
+
+        hero {
+            title "Build with Thanvi"
+            subtitle "Create modern web applications using Thanvi."
+
+            button "Get Started" "/start"
+        }
+
+        section "Features" {
+
+            card {
+                title "Simple"
+                text "Clean and readable Thanvi syntax."
+            }
+
+            card {
+                title "WebApp"
+                text "Build websites and web applications."
+            }
+
+            card {
+                title "Modern"
+                text "Designed for the next generation of developers."
+            }
+        }
+
+        footer {
+            text "© 2026 Thanvi Programming Language"
+        }
+    }
+}
