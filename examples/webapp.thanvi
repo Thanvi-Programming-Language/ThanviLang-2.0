@@ -1,0 +1,24 @@
+# ThanviLang 2.0 WebApp
+
+let app_name = "Thanvi WebApp";
+let version = "2.0.0";
+let author = "Thanvi Programming Language";
+
+fn home() {
+    print "Welcome to Thanvi WebApp";
+    print app_name;
+    print version;
+}
+
+fn about() {
+    print "Built with Thanvi Programming Language";
+    print author;
+}
+
+fn start() {
+    print "Starting Thanvi WebApp...";
+    home();
+    about();
+}
+
+start();
