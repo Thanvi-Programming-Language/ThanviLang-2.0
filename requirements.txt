@@ -1,0 +1,1 @@
+# ThanviLang 2.0 currently uses Python standard library.
