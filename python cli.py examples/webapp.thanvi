@@ -1,0 +1,5 @@
+let app_name = "Thanvi WebApp";
+let version = "2.0.0";
+
+print app_name;
+print version;
